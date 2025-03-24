@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API_KEY = "5f874515";
+const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 const BASE_URL = "http://www.omdbapi.com/";
 
 const SearchBar = ({ onSearch }) => {
